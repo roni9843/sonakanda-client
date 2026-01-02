@@ -18,7 +18,6 @@ const AppRoutes = () => {
       <Route element={<MainLayout />}>
         {/* Public route example */}
         <Route path="/" element={<HomePage />} />
-        <Route path="/sonakanda-client" element={<HomePage />} />
 
         {/* Public login route */}
         <Route path="/login" element={<LoginPage />} />
